@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, red, yellow);
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.heads{
+    text-align: center;
+    align-items: center;
+}
+h1{
+    letter-spacing: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+@media screen and (max-width: 570px) {
+    body {
+      font-size: 0.5rem;
+    }
+    h3{
+        font-size: 0.2rem;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    body {
+      font-size: 0.3rem;
+    }
+    h3{
+        font-size: 0.1rem;
+    }
+  }
